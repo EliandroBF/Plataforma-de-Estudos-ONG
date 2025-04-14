@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;          /* Define a fonte do texto para Arial, com fallback para sans-serif */
+    background-color: #f4f4f4;             /* Cor de fundo cinza claro para toda a página */
+    display: flex;                           /* Usa Flexbox para posicionar o conteúdo */
+    justify-content: center;                 /* Centraliza o conteúdo horizontalmente */
+    align-items: center;                     /* Centraliza o conteúdo verticalmente */
+    height: 100vh;                           /* Define a altura da página como 100% da altura da tela */
+}
+
+.login-container {
+    background-color: white;                  /* Fundo branco para a caixa de login */
+    padding: 2rem;                              /* Espaçamento interno (top, bottom, left, right) */
+    border-radius: 10px;                        /* Arredonda os cantos da caixa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra suave ao redor da caixa */
+    width: 300px;                               /* Largura fixa da caixa de login */
+}
+
+input {
+    width: 100%;                             /* Input ocupa toda a largura disponível */
+    padding: 0.5rem;                         /* Espaço interno do campo de texto */
+    margin: 0.5rem 0;                        /* Espaçamento vertical entre os campos */
+    border: 1px solid #ccc;                /* Borda cinza clara */
+    border-radius: 5px;                      /* Cantos arredondados nos inputs */
+    transition: border 0.3s;                 /* Animação suave ao mudar a borda */
+}
+
+input:focus {
+    border: 1px solid #4CAF50;             /* Borda verde quando o input está focado */
+    outline: none;                           /* Remove o contorno azul padrão do navegador */
+}
+
+button {
+    width: 50%;                              /* Botão ocupa metade da largura da caixa */
+    margin: 0 auto;                          /* Centraliza o botão horizontalmente */
+    display: block;                          /* Permite aplicar margin: auto corretamente */
+    padding: 0.7rem;                         /* Espaçamento interno do botão */
+    background-color: #007bff;             /* Cor azul padrão do botão */
+    color: white;                          /* Cor do texto branca */
+    border: none;                            /* Remove a borda padrão */
+    border-radius: 5px;                      /* Cantos arredondados */
+    cursor: pointer;                         /* Mostra mãozinha ao passar o mouse */
+    transition: background-color 0.3s;       /* Efeito suave ao mudar a cor no hover */
+}
+
+button:hover {
+    background-color: #0056b3;             /* Cor mais escura ao passar o mouse */
+}
+
+h2 {
+    text-align: center;                      /* Centraliza o texto do título */
+}
+
+
+
